@@ -7,6 +7,7 @@
 # Compose
 * Edit the file at nginx/appstreammanager.conf to set ssl certificates and ports
 * Register DNS records to point to this host
-* point the browser to https://hostname. 
+* point the browser to https://hostname.
+<br>
 Run
 `docker compose up`
