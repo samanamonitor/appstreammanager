@@ -1,0 +1,29 @@
+body {
+	background-color: lightgrey;
+}
+
+.sessionkey {
+	display: block;
+}
+
+.no-close .ui-dialog-titlebar-close {
+  display: none;
+}
+
+.sessiontable {
+	table-layout: fixed;
+  width: 100%;
+  border-collapse: collapse;
+  border: 3px solid purple;
+}
+
+th.sessiontable {
+	padding: 10px;
+	background: black;
+	color: white;
+}
+
+td.sessiontable {
+	padding: 10px;
+	background: linear-gradient(to bottom, rgb(0 0 0 / 10%), rgb(0 0 0 / 30%));
+}
